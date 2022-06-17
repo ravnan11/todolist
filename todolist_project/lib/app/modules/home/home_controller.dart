@@ -16,11 +16,6 @@ class HomeController extends ChangeNotifier {
 
   Future<void> saveDataModel({required BuildContext context}) async {
     try {
-      print('VALOR DO MODEL ENVIADO');
-      print(todoModelClass.title);
-      print('valor da descrição');
-      print(todoModelClass.description);
-
       if (todoModelClass.title != "" && todoModelClass.description != "") {
         listTodoModel.insert(0, todoModelClass.mapTodoModel(todoModelClass));
         await localStorage.setStorageList(
