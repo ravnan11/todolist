@@ -126,13 +126,16 @@ class _AddNewAssignmentWidgetState extends State<AddNewAssignmentWidget> {
                         ),
                         child: Center(
                           child: Text(
-                            'Adicionar',
+                            (!_controller.isUpdate) ? 'Adicionar' : 'Editar',
                             style: AppTheme.textStyles.inputWhite,
                           ),
                         ),
                         onPressed: () async {
                           if (_controller.isUpdate) {
-                            _controller.updateModelData(index: widget.index!);
+                            _controller.updateModelData(
+                              index: widget.index!,
+                              context: context,
+                            );
                           } else {
                             _controller.saveDataModel(
                               context: context,

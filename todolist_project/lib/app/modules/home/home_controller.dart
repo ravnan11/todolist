@@ -100,10 +100,18 @@ class HomeController extends ChangeNotifier {
     }
   }
 
-  updateModelData({required int index}) async {
+  updateModelData({required BuildContext context, required int index}) async {
     listTodoModel[index]['description'] = todoModelClass.description;
     await localStorage.setStorageList('todoModel', listTodoModel);
     notifyListeners();
+    ShowModal.success(
+        context: context, textMsg: 'Descrição editada com sucesso');
+    await Future.delayed(
+      const Duration(seconds: 3),
+      () {
+        Navigator.pop(context);
+      },
+    );
   }
 
   changeCheckValue({required int index}) async {
