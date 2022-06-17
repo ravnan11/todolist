@@ -1,16 +1,33 @@
-# todolist_project
+# Challenge INFLOR
 
-A new Flutter project.
+Challenge INFLOR, é um "code challenge" oferecido pela INFLOR como step de um processo seletivo de Desenvolvedor Mobile Android - Junior.
 
-## Getting Started
+A aplicação tem como responsabilidade disponibilizar a criação de uma lista de tarefas.
 
-This project is a starting point for a Flutter application.
+# Stack
 
-A few resources to get you started if this is your first Flutter project:
+Challenge INFLOR usa como tech stack:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Dart
+Flutter
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Tech Decisions
+
+As decisões técnicas utilizadas para o desenvolvimento da aplicação foram de criar uma aplicação que fosse facilmente compreendida, para isso utilizei uma linguagem altamente utilizada na atualidade (Dart) juntamente com o framework(Flutter) e de fácil entendimento. Além disso, utilizei algumas das boas práticas de clean code
+
+## 🛠️ Abrir e rodar o projeto
+
+**Para executar este projeto você precisa:**
+
+- Ter o [Flutter](https://flutter.dev/docs/get-started/install) instalado na sua máquina
+- Ter algum editor de códigos ou IDE como o [Android Studio](https://developer.android.com/studio).
+
+Caso opte por IDEs como as duas sugeridas acima, o processo de execução do aplicativo funcionará através de um botão de play na parte superior que ambas dispõem. Caso escolha rodar o projeto via linha de comandos, utilize o comando `flutter run`. Lembre-se de antes de executar o comando de navegar até a pasta do projeto antes. 
+
+
+
+
+
+
+
+
