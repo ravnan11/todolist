@@ -15,7 +15,7 @@ Flutter
 
 As decisões técnicas utilizadas para o desenvolvimento da aplicação foram de criar uma aplicação que fosse facilmente compreendida, para isso utilizei uma linguagem altamente utilizada na atualidade (Dart) juntamente com o framework(Flutter) e de fácil entendimento. Além disso, utilizei algumas das boas práticas de clean code
 
-## 🛠️ Abrir e rodar o projeto
+# 🛠️ Open and run the project
 
 **Para executar este projeto você precisa:**
 
